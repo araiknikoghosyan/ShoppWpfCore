@@ -7,9 +7,9 @@ namespace Shopp_App_.NetCore.Model
 {
     public class Store
     {
-        public Store(int id, string nameProduct, decimal quantity, decimal price, DateTime addday)
+        public Store( string nameProduct, decimal quantity, decimal price)
         {
-            Id = id;
+            
             NameProduct = nameProduct;
             Quantity = quantity;
             Price = price;

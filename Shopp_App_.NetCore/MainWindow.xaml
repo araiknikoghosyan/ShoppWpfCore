@@ -8,7 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <DataGrid x:Name="gridload"/>
-        <Button x:Name="Add" Content="Add" HorizontalAlignment="Left" Margin="492,353,0,0" VerticalAlignment="Top" Click="Add_Click"/>
+        <Button x:Name="Add" Content="Add" HorizontalAlignment="Left" Margin="553,348,0,0" VerticalAlignment="Top" Click="Add_Click" Width="68"/>
+        <Button x:Name="Delete" Content="Delete" HorizontalAlignment="Left" Margin="724,348,0,0" VerticalAlignment="Top" Click="Delete_Click" Width="56"/>
+        <Button x:Name="Refresh" Content="Refresh" HorizontalAlignment="Left" Margin="638,348,0,0" VerticalAlignment="Top" Click="Refresh_Click" Width="72"/>
+        <Button x:Name="Sales" Content="Sales" HorizontalAlignment="Left" Margin="724,377,0,0" VerticalAlignment="Top" Click="Sales_Click" Width="56"/>
+        <Button x:Name="Addquantity" Content="Add_Quantity" HorizontalAlignment="Left" Margin="639,377,0,0" VerticalAlignment="Top" Click="Addquantity_Click"/>
 
     </Grid>
 </Window>

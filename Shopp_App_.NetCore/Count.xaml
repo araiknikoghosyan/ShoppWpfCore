@@ -1,0 +1,15 @@
+﻿<Window x:Class="Shopp_App_.NetCore.Count"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shopp_App_.NetCore"
+        mc:Ignorable="d"
+        Title="Count" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textCount" HorizontalAlignment="Left" Margin="467,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="Count1" Content="Count" HorizontalAlignment="Center" Margin="0,213,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.114"/>
+        <Button x:Name="CountOK" Content="OK" HorizontalAlignment="Left" Margin="677,297,0,0" VerticalAlignment="Top" Click="CountOK_Click"/>
+
+    </Grid>
+</Window>
