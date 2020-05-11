@@ -47,7 +47,6 @@ namespace Shopp_App_.NetCore
                 catch (Exception)
                 {
 
-                    throw;
                 }
             }
         }

@@ -14,7 +14,7 @@ namespace Shopp_App_.NetCore.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLlocaldb; Database=Shopdb");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLlocaldb; Database=shopDBapp");
         }
     }
 }
